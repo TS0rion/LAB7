@@ -13,5 +13,5 @@ export default function Timer() {
     return () => clearInterval(interval);
   }, [time]);
 
-  return <div>Count down: {time} seconds</div>;
+  return <h2 style={{ marginTop: "100px" }}>Count down: {time} seconds</h2>;
 }
